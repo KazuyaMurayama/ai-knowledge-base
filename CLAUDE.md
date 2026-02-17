@@ -1,0 +1,102 @@
+# AI Knowledge Base 運用ルール
+
+このリポジトリは、生成AIとの対話から得た知見をマークダウンファイルとして蓄積し、RAG（検索拡張生成）のデータソースとして活用するためのナレッジベースです。
+
+## ファイル作成ルール
+
+### ファイル名
+
+`YYYY-MM-DD_slug.md` 形式とする。
+
+- 例: `2025-02-17_roas-improvement.md`
+- slugは英語のケバブケースで、内容を端的に表す
+
+### 保存先
+
+すべてのmdファイルは `knowledge/` フォルダ直下に保存する。サブフォルダは作成しない。
+
+### YAML Front Matter（必須）
+
+すべてのmdファイルの先頭に以下のfront matterを付与する。
+
+```yaml
+---
+title: "タイトル（日本語）"
+date: YYYY-MM-DD
+source: claude | chatgpt | gemini | perplexity | manual
+tags: [tag1, tag2, tag3]
+use_case: email | proposal | advice | mindset
+perspective: experience | opinion | ai_knowledge | research
+topic_area: カテゴリ名
+---
+```
+
+### 各フィールドの定義
+
+#### source（生成元）
+
+| 値 | 意味 |
+|---|---|
+| claude | Claude / Claude Codeからの出力 |
+| chatgpt | ChatGPTからの出力 |
+| gemini | Geminiからの出力 |
+| perplexity | Perplexityからの出力 |
+| manual | 自分で書いた内容 |
+
+#### tags（自由タグ）
+
+- 具体的なキーワードを3〜7個程度付与する
+- すべて小文字の英語ケバブケースで統一する（例: `data-analysis`, `amazon-ads`）
+- `_tag-index.md` に登録済みのタグを優先的に使用し、新しいタグを使う場合は `_tag-index.md` にも追記する
+
+#### use_case（利用シーン）
+
+| 値 | 用途 |
+|---|---|
+| email | メール返信・メッセージ作成の参考 |
+| proposal | 提案資料・ドキュメント作成 |
+| advice | アドバイス・コンサルティング |
+| mindset | 悩み相談・考え方の整理・価値観 |
+
+- 複数該当する場合はリスト形式: `[advice, proposal]`
+
+#### perspective（視点）
+
+| 値 | 意味 |
+|---|---|
+| experience | 自分の実体験・実績に基づく知見 |
+| opinion | 自分の考え・価値観・判断基準 |
+| ai_knowledge | 生成AIから得た汎用的な知見 |
+| research | 調査・リサーチ結果 |
+
+#### topic_area（大分類）
+
+以下から選択する。必要に応じて追加可。
+
+- `marketing` - マーケティング・広告運用
+- `data-science` - データ分析・ML・統計
+- `ai-consulting` - AI導入・DXコンサルティング
+- `management` - チームマネジメント・組織運営
+- `career` - キャリア・フリーランス戦略
+- `business-development` - 事業開発・営業
+- `technology` - 技術・ツール・開発
+- `life` - 生活・育児・ワークライフバランス
+- `real-estate` - 不動産投資
+- `communication` - コミュニケーション・文章術
+
+## 本文の構成
+
+front matterの後、本文は以下の構成を推奨する。
+
+```markdown
+## 要点
+（3〜5行で概要をまとめる）
+
+## 詳細
+（本文）
+
+## 活用シーン
+（どのような場面で使える知見かを簡潔に記載）
+```
+
+ただし、内容に応じて柔軟に構成を変えてよい。
