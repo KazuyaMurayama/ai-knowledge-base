@@ -19,6 +19,10 @@
 - `sql` - SQL
 - `lightgbm` - LightGBM
 - `streamlit` - Streamlit
+- `backtest` - バックテスト
+- `investment` - 投資・資産運用
+- `nasdaq` - NASDAQ関連
+- `leverage` - レバレッジ投資
 
 ## AI・テクノロジー
 
@@ -28,6 +32,12 @@
 - `langchain` - LangChain
 - `dify` - Dify
 - `automation` - 自動化
+- `ai-consulting` - AIコンサルティング・導入支援
+- `web-development` - Web開発
+- `architecture` - システムアーキテクチャ
+- `requirements` - 要件定義
+- `firebase` - Firebase
+- `react` - React
 
 ## ビジネス・コンサルティング
 
@@ -36,6 +46,8 @@
 - `freelance` - フリーランス
 - `business-model` - ビジネスモデル
 - `roi` - 投資対効果
+- `monetization` - マネタイズ・収益化
+- `pipeline` - パイプライン管理
 
 ## コミュニケーション
 
@@ -56,3 +68,14 @@
 - `work-life-balance` - ワークライフバランス
 - `parenting` - 育児
 - `real-estate-investment` - 不動産投資
+
+## 自己啓発・リサーチ
+
+- `creativity` - 創造性
+- `grit` - GRIT（やり抜く力）
+- `concentration` - 集中力
+- `evidence-based` - エビデンスベース
+- `habits` - 習慣形成
+- `productivity` - 生産性
+- `self-improvement` - 自己改善
+- `goal-setting` - 目標設定
