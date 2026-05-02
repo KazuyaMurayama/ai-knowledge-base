@@ -1,73 +1,83 @@
-# FILE_INDEX.md — ai-knowledge-base
+# FILE_INDEX — ai-knowledge-base
 
-> **新セッション開始時に必ずこのファイルを読む。**
-> ファイル追加・削除・移動時は必ずこのファイルを更新すること。
-> 最終更新: 2026-04-30
+> ⚠️ このファイルは自動生成です。手動編集は次回更新で上書きされます。
 
-## 概要
-AI・フリーランス・投資・習慣研究などのプロジェクト知識をタグ付きMarkdownで蓄積したナレッジベース。
-
-**スタック:** Markdown
-
----
-
-## 📋 最初に読むべきファイル
-
-| 優先度 | ファイル | 内容 |
-|---|---|---|
-| ★★★ | `CLAUDE.md` | 運用ルール・追加ルール |
-| ★★★ | `README.md` | ナレッジベース概要・使い方 |
-| ★★★ | `knowledge/_tag-index.md` | タグインデックス（全知識の入口） |
-| ★★ | `knowledge/2026-02-06_nasdaq-3x-backtest-results.md` | NASDAQ 3x戦略バックテスト結果 |
-| ★★ | `knowledge/2026-02-25_ai-roi-simulator-design.md` | AI ROIシミュレーター設計 |
+| 項目 | 値 |
+|---|---|
+| リポジトリ | KazuyaMurayama/ai-knowledge-base |
+| ブランチ | main |
+| 総ファイル数 | 18 |
+| 最終更新 | 2026-05-02 |
+| 管理者 | 男座員也（Kazuya Oza） |
 
 ---
 
-## 🗂️ ディレクトリ構造
+## カテゴリ別サマリー
+
+| カテゴリ | ファイル数 |
+|---|---|
+| Documentation | 17 |
+| Config | 1 |
+
+---
+
+## ディレクトリ構成
 
 ```
-ai-knowledge-base/
+.
+├── knowledge/
+│   ├── _tag-index.md
+│   ├── 2025-02-17_rag-knowledge-base-design.md
+│   ├── 2025-10-17_hr-agent-mypage-system.md
+│   ├── 2026-02-01_ai-architect-qa-framework.md
+│   ├── 2026-02-06_nasdaq-3x-backtest-results.md
+│   ├── 2026-02-12_nasdaq-strategy-monetize-plan.md
+│   ├── 2026-02-25_ai-roi-simulator-design.md
+│   ├── 2026-02-25_concentration-habits-evidence.md
+│   ├── 2026-02-25_creativity-habits-evidence.md
+│   ├── 2026-02-25_freelance-sales-pipeline.md
+│   ├── 2026-02-25_grit-habits-evidence.md
+│   └── 2026-02-25_multi-agent-ideation-framework.md
+├── .gitignore
 ├── CLAUDE.md
+├── FILE_INDEX.md
 ├── README.md
-└── knowledge/
-    ├── _tag-index.md            ← タグインデックス（全知識の入口）
-    ├── 2025-02-17_rag-knowledge-base-design.md
-    ├── 2025-10-17_hr-agent-mypage-system.md
-    ├── 2026-02-01_ai-architect-qa-framework.md
-    ├── 2026-02-06_nasdaq-3x-backtest-results.md
-    ├── 2026-02-12_nasdaq-strategy-monetize-plan.md
-    ├── 2026-02-25_ai-roi-simulator-design.md
-    ├── 2026-02-25_concentration-habits-evidence.md
-    ├── 2026-02-25_creativity-habits-evidence.md
-    ├── 2026-02-25_freelance-sales-pipeline.md
-    ├── 2026-02-25_grit-habits-evidence.md
-    └── 2026-02-25_multi-agent-ideation-framework.md
+├── tasks.md
+└── Timeout_Prevention.md
 ```
 
 ---
 
-## 📑 全ファイル一覧
+## ファイル詳細
 
-| パス | 種別 | 説明 |
+### Documentation (17件)
+
+| ファイル | サイズ | 説明 |
 |---|---|---|
-| `CLAUDE.md` | ドキュメント | 運用ルール・追加ルール |
-| `README.md` | ドキュメント | ナレッジベース概要・使い方 |
-| `knowledge/_tag-index.md` | インデックス | タグインデックス（全知識の入口） |
-| `knowledge/2025-02-17_rag-knowledge-base-design.md` | 知識 | RAGナレッジベース設計 |
-| `knowledge/2025-10-17_hr-agent-mypage-system.md` | 知識 | 人材エージェントマイページシステム |
-| `knowledge/2026-02-01_ai-architect-qa-framework.md` | 知識 | AIアーキテクトQ&Aフレームワーク |
-| `knowledge/2026-02-06_nasdaq-3x-backtest-results.md` | 知識 | NASDAQ 3xレバ戦略バックテスト結果 |
-| `knowledge/2026-02-12_nasdaq-strategy-monetize-plan.md` | 知識 | NASDAQ戦略マネタイズ計画 |
-| `knowledge/2026-02-25_ai-roi-simulator-design.md` | 知識 | AI ROIシミュレーター設計 |
-| `knowledge/2026-02-25_concentration-habits-evidence.md` | 知識 | 集中力習慣エビデンス |
-| `knowledge/2026-02-25_creativity-habits-evidence.md` | 知識 | 創造性習慣エビデンス |
-| `knowledge/2026-02-25_grit-habits-evidence.md` | 知識 | GRITエビデンス |
-| `knowledge/2026-02-25_multi-agent-ideation-framework.md` | 知識 | マルチエージェントアイデア創出フレームワーク |
+| `CLAUDE.md` | 3.7 KB | Claude Code プロジェクト設定・命名ルール |
+| `FILE_INDEX.md` | 3.3 KB | （このファイル）全ファイルインデックス |
+| `knowledge/_tag-index.md` | 2.3 KB | Markdown ドキュメント |
+| `knowledge/2025-02-17_rag-knowledge-base-design.md` | 1.5 KB | Markdown ドキュメント |
+| `knowledge/2025-10-17_hr-agent-mypage-system.md` | 2.3 KB | Markdown ドキュメント |
+| `knowledge/2026-02-01_ai-architect-qa-framework.md` | 2.5 KB | Markdown ドキュメント |
+| `knowledge/2026-02-06_nasdaq-3x-backtest-results.md` | 1.9 KB | Markdown ドキュメント |
+| `knowledge/2026-02-12_nasdaq-strategy-monetize-plan.md` | 2.5 KB | Markdown ドキュメント |
+| `knowledge/2026-02-25_ai-roi-simulator-design.md` | 2.2 KB | Markdown ドキュメント |
+| `knowledge/2026-02-25_concentration-habits-evidence.md` | 2.2 KB | Markdown ドキュメント |
+| `knowledge/2026-02-25_creativity-habits-evidence.md` | 2.6 KB | Markdown ドキュメント |
+| `knowledge/2026-02-25_freelance-sales-pipeline.md` | 2.0 KB | Markdown ドキュメント |
+| `knowledge/2026-02-25_grit-habits-evidence.md` | 2.5 KB | Markdown ドキュメント |
+| `knowledge/2026-02-25_multi-agent-ideation-framework.md` | 2.3 KB | Markdown ドキュメント |
+| `README.md` | 843 B | リポジトリ概要・セットアップ手順 |
+| `tasks.md` | 1.2 KB | タスク管理・セッション履歴 |
+| `Timeout_Prevention.md` | 4.9 KB | タイムアウト対策ガイド |
+
+### Config (1件)
+
+| ファイル | サイズ | 説明 |
+|---|---|---|
+| `.gitignore` | 377 B | Git 除外設定 |
 
 ---
 
-## 🔖 ファイル更新ルール
-
-1. 新ファイル追加時: 該当セクションに1行追加
-2. ファイル削除・移動時: 該当行を削除または更新
-3. 更新後: `git add FILE_INDEX.md && git commit -m "docs: FILE_INDEX.md更新"`
+_自動生成: 2026-05-02 | 管理者: 男座員也（Kazuya Oza）_
